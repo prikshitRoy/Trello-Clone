@@ -43,7 +43,6 @@ export const MobileSidebar = () => {
       <Sheet open={isOpen} onOpenChange={onClose}>
         <SheetContent side="left" className="p-2 pt-10">
           <Sidebar storageKey="t-sidebar-mobile-state" />{" "}
-          {/* https://youtu.be/pRybm9lXW2c?si=bDGw-yzae7TpaFaB&t=10541 */}
         </SheetContent>
       </Sheet>
     </>
